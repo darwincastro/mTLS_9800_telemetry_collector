@@ -11,7 +11,7 @@ This repository facilitates the setup of a telemetry collection system tailored 
 The Docker Compose file automates the deployment of these components, streamlining the process to be zero-touch. It includes provisions for creating InfluxDB buckets and Grafana dashboards.
 
 ## Screenshot
-![9840_demo_dashboard](https://github.com/darwincastro/9800_telemetry_collector/blob/master/examples/9840-Demo-Dasboard.png)
+![9840_demo_dashboard](https://github.com/darwincastro/mTLS_9800_telemetry_collector/blob/master/examples/9840-Demo-Dasboard.png))
 
 ## Requirements
 
@@ -30,11 +30,11 @@ The Docker Compose file automates the deployment of these components, streamlini
 1. **Clone the Repo**
 
 ```bash
-git clone http://github.com/darwincastro/9800_telemetry_collector.git
-cd 9800_telemetry_collector.git
+git clone https://github.com/darwincastro/mTLS_9800_telemetry_collector.git
+cd mTLS_9800_telemetry_collector
 ```
 
-2. 9800_telemetry_collector.git
+2. Edit the `.env` File
 
 Use a text editor to modify the .env file, replacing the IP address under the variable INFLUXDB_URL with the host's IP address.
 
